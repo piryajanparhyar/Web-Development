@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+</head>
+<body>
+  <div id="app"></div>
+
+<style>
+    body {
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      background:linear-gradient(black,grey);
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background:grey;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px black;
+      width: 400px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid rgba(128, 128, 128, 0.375);
+      border-radius: 3px;
+    }
+    button {
+      padding: 6px 12px;
+      margin: 2px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .btn-edit {
+      background: Grey;
+      color: black;
+    }
+    .btn-delete {
+      background: grey;
+      color: black;
+    }
+    ul {
+      list-style:georgian;
+      padding: 0;
+    }
+    li {
+      background:white;
+      margin: 5px 0;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    p {
+      color: black;
+      margin: 5px 0;
+      font-size: 15px;
+    }
+  </style>
+  <script src="main.js"></script>
+</body>
+</html>

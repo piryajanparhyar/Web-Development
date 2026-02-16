@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Todo Layout V2</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="card">
+      <h1 class="title">What needs to be done?</h1>
+
+      <div class="row add-row">
+        <input id="new-todo" class="text" type="text" placeholder="Add a task" />
+        <button id="add-btn" class="btn btn-dark">Add</button>
+      </div>
+
+      <div class="row filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="active">Active</button>
+        <button class="chip" data-filter="completed">Completed</button>
+      </div>
+
+      <div id="stats" class="stats">0 out of 0 items completed</div>
+
+      <div id="edit-bar" class="edit-bar hidden">
+        <input id="edit-input" class="text" type="text" />
+        <div class="row gap">
+          <button id="cancel-edit" class="btn btn-light">Cancel</button>
+          <button id="save-edit" class="btn btn-dark">Save</button>
+        </div>
+      </div>
+
+      <ul id="list" class="list" aria-live="polite"></ul>
+
+      <div class="row footer">
+        <button id="check-all" class="btn btn-dark">Check All</button>
+        <button id="remove-completed" class="btn btn-danger">Remove Completed</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

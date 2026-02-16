@@ -1,0 +1,44 @@
+.navbar{
+    color: red;
+    background-color: #87cfeb5b;
+    position: sticky;
+    top: 0px;
+    left:0px;
+    width: 100%
+    padding: 10px;
+    z-index: 1;
+}
+#main>div{
+    color: rgb(0, 145, 255);
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    z-index: 2;
+    padding: 20px;
+}
+
+
+#sgdf{
+    color: red;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 70%;
+    background-color:blue;
+    z-index: 2;
+    padding: 20px;
+}
+.box1{
+    color: red;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 70%;
+    background-color:blue;
+    z-index: 2;
+    padding: 20px;
+
+
+}

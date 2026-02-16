@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App With Array</title>
+    <link rel="Stylesheet" href="main.css">
+</head>
+
+<body>
+    <form onsubmit="addHandler();return false">
+        <input type="text" placeholder="Type ..." required id="input" />
+        <input type="submit" value="Add" />
+        <p id="message">Successfully added new todo!</p>
+        <p id="todos-counter"></p>
+    </form>
+    <div id="buttons">
+        <button onclick="deleteAllHandler()">Delete All</button>
+    </div>
+    <ul id="show-list">
+
+    </ul>
+    <div id="histroy-div">
+        <p id="histroy-counter"></p>
+        <ul id="histroy-ul">
+          
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

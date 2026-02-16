@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 10px;
+}
+.card > div {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 23%;
+  margin-right: 5px;
+  margin-top: 10px;
+
+}
+.card > div > img {
+  width: 100%;
+  height: 250px;
+}
+.card > div >h6{
+     display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limits to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ensures ellipsis is shown */
+}
+.card > div >p{
+     display: -webkit-box;
+  -webkit-line-clamp: 4; /* Limits to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ensures ellipsis is shown */
+}

@@ -1,0 +1,153 @@
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+}
+
+form, #show-list, #histroy-div {
+  width: 400px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #6a5acd;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #5846c0;
+}
+
+/* === Success Message === */
+#message {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 10px;
+  display: none;
+}
+
+/* === Todos Counter === */
+#todos-counter {
+  margin-top: 10px;
+  color: #333;
+  font-weight: 500;
+  display: none;
+}
+
+
+#buttons {
+  text-align: center;
+  margin-bottom: 20px;
+  display: none;
+}
+
+#buttons button {
+  background: #ff4757;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+#buttons button:hover {
+  background: #e84118;
+}
+
+/* === Todo List === */
+#show-list {
+  list-style: none;
+  display: none;
+}
+
+#show-list li {
+  background: #f5f6fa;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#show-list li button {
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  margin-left: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#show-list li button:hover {
+  background: #4b3db6;
+}
+
+
+#histroy-div {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#histroy-div p {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#histroy-ul {
+  list-style: none;
+}
+
+#histroy-ul li {
+  background: #f1f2f6;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  color: #555;
+}

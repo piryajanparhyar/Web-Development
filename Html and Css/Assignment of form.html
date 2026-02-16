@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title>form assignment</title>
+</head>
+
+<body>
+    <h1>
+        <center>Student Registration Form</center>
+    </h1>
+    <form action="//example.com/register.php">
+        <p>Roll no :
+            <input type="text" name="Roll no" size="53" maxlength="30">
+        </p>
+        <p> Student Name :
+            <input type="text" name="Student name" placeholder="First Name" size="20" maxlength="30">
+            -<input type="text" placeholder="Last Name" size="20" maxlength="30">
+        </p>
+        <p>Father's Name :
+            <input type="text" name="Father's Name" size="47" maxlength="30">
+        </p>
+        <p>Date of Birth :
+            <input type="text" name="day" list="days" placeholder="Day" size="4" required>
+            <datalist id="days">
+                <option value="Monday">
+                <option value="Tuesday">
+                <option value="Wednesday">
+                <option value="Thursday">
+                <option value="Friday">
+                <option value="Saturday">
+                <option value="Sunday">
+            </datalist>
+            -
+            <input type="text" name="Month" list="Months" placeholder="Month" size="4" required>
+            <datalist id="Months">
+                <option value="January">
+                <option value="February">
+                <option value="March">
+                <option value="April">
+                <option value="May">
+                <option value="June">
+                <option value="July">
+                <option value="August">
+                <option value="September">
+                <option value="October">
+                <option value="November">
+                <option value="December">
+            </datalist>
+            -
+            <input type="number" name="Year" list="Years" placeholder="Year" size="5" required>
+            <datalist id="Years">
+                <option value="2015">
+                <option value="2016">
+                <option value="2017">
+                <option value="2018">
+                <option value="2019">
+                <option value="2020">
+                <option value="2021">
+                <option value="2022">
+                <option value="2023">
+                <option value="2024">
+                <option value="2025">
+            </datalist>
+            <i>(DD-MM-YYYY)</i>
+        </p>
+        <p>Mobile no.:
+            <input type="text" value="+91" size="3">
+            -
+            <input type="number" name="mobile no" size="50" maxlength="30" required>
+        </p>
+        <p>Email id :
+            <input type="email" name="email" size="40" maxlength="30">
+        </p>
+        <p> Password :
+            <input type="Password" name="password" size="40" maxlength="30">
+        </p>
+        <p>Gender :
+            <input id="Male" Type="radio" name="Gender">
+            <label for="Male">Male</label>
+            <input id="Female" Type="radio" name="Gender">
+            <label for="Female">Female</label>
+        </p>
+        <p>Department :
+            <input id="CSE" Type="checkbox" name="Department">
+            <label for="CSE">CSE</label>
+            <input id="IT" Type="checkbox" name="Department">
+            <label for="IT">IT</label>
+            <input id="ECE" Type="checkbox" name="Department">
+            <label for="ECE">ECE</label>
+            <input id="Civil" Type="checkbox" name="Department">
+            <label for="Civil">Civil</label>
+            <input id="Mech" Type="checkbox" name="Department">
+            <label for="Mech">Mech</label>
+        </p>
+        <p>Coarse :<select></select>
+            <input select current coarse's">
+            <hr>
+        <p>Student Photo :
+            <input type="File" name="Student Photo" value="choose file" size="20">
+        </p>
+        <p>City :
+            <input type="text" name="city" size="40">
+        </p>
+        <p>Address :
+            <textarea cols="35" rows="04"></textarea>
+        </p>
+        <center><button>Register</button></center> 
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2px;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.main.row {
+  flex-direction: row;
+}
+
+.box-1 {
+  background: red;
+  border: 2px solid black;
+  flex: 1;
+  padding-top: 10%;
+}
+
+.box-2 {
+  background: cyan;
+  border: 2px solid black;
+  flex: 2;
+  padding-top: 10%;
+}
+
+.box-3 {
+  background: white;
+  border: 2px solid black;
+  flex: 2;
+  padding-top: 8%;
+}
+
+.box-4 {
+  background: gold;
+  border: 2px solid black;
+  flex: 1;
+  padding-top: 8%;
+}
+
+.box-5 {
+  background: gold;
+  border: 2px solid black;
+  flex: 1;
+  padding-top: 12%;
+}
+
+.box-6 {
+  background: white;
+  border: 2px solid black;
+  flex: 1;
+  padding-top: 12%;
+}
+
+.box-7 {
+  background: red;
+  border: 2px solid black;
+  flex: 1;
+  padding-top: 7%;
+}
+
+.box-8 {
+  background: red;
+  border: 2px solid black;
+  flex: 1;
+  padding-top: 7%;
+}
+
+.box-9 {
+  background: cyan;
+  border: 2px solid black;
+  flex: 1;
+  padding-top: 7%;
+}
